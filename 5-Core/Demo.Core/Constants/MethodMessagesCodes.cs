@@ -1,0 +1,87 @@
+﻿namespace Demo.Core.Constants
+{
+    public class MethodMessagesCodes
+    {
+        public const int CheckCaptcha = 99;
+        public const int CaptchaIsNotRequired = 98;
+        public const int Login = 1;
+        public const int Add = 2;
+        public const int Update = 3;
+        public const int Delete = 4;
+        public const int GetAll = 5;
+        public const int GetById = 6;
+        public const int GetCities = 7;
+        public const int GetCountiesByCity = 8;
+        public const int GetHometownsByCounty = 9;
+        public const int GetToken = 10;
+        public const int GetByTenantId = 11;
+        public const int CheckConnection = 12;
+        public const int CheckRegionIsExist = 13;
+        public const int AddSourceWithRegion = 14;
+        public const int Producer = 50;
+        public const int Consomer = 55;
+        public const int GetvideoFeed = 15;
+        public const int SendQueue = 16;
+        public const int GetFlowList = 17;
+        public const int GetActions = 18;
+        public const int GetScreenNames = 19;
+        public const int GetModuleNames = 20;
+        public const int GetMainModules = 21;
+        public const int GetBasicInformationOfModules = 22;
+        public const int GetProfile = 23;
+        public const int GetRegionsForFlow = 24;
+        public const int GetRegionsBySourceIdForSource = 25;
+        public const int GetRegionsByCriteria = 26;
+        public const int AddRegionTag = 27;
+        public const int UpdateRegionTag = 28;
+        public const int GetLogHistory = 29;
+        public const int GetRolesWithScreenAndActions = 30;
+        public const int GetRoleDetailById = 31;
+        public const int GetRolesByCompanyUser = 32;
+        public const int GetRolesByTenantUser = 33;
+        public const int GetRolesBySystemUser = 34;
+        public const int GetRolesOfTheCompaniesAssignedAccordingToUserId = 35;
+        public const int GetRowNumberByMachine = 36;
+        public const int AddWithQrcode = 37;
+        public const int GetPreview = 38;
+        public const int SendPreview = 39;
+        public const int GetClassesByClassId = 40;
+        public const int GetClassesByClassGroupId = 41;
+        public const int GetAllShortInfo = 42;
+        public const int GetAllShortInfoByTenantId = 43;
+        public const int GetActiveCompanyListByUserId = 44;
+        public const int GetDetailByUserId = 45;
+        public const int GetUsersNotAssignedCompany = 46;
+        public const int GetByUserId = 47;
+        public const int GetByScreen = 48;
+        public const int GetScreenActionsByGroupingThemByScreen = 49;
+        public const int GetByIdWithRelatedList = 50;
+        public const int GetRelatedList = 51;
+        public const int GetScreensByModule = 52;
+        public const int GetByActionId = 53;
+        public const int GetByScreenId = 54;
+        public const int GetSModels = 55;
+        public const int GetClassesById = 56;
+        public const int GetRolesByUserId = 57;
+        public const int GetUsersNotAssignedRole = 58;
+        public const int AddCompanyRole = 59;
+        public const int AddTenantRole = 60;
+        public const int UpdateCompanyRole = 61;
+        public const int UpdateTenantRole = 62;
+        public const int DeleteCompanyRole = 63;
+        public const int DeleteTenantRole = 64;
+        public const int GetCompanyRolesByUserId = 65;
+        public const int GetTenantRolesByUserId = 66;
+        public const int GetAllForCompanyRole = 67;
+        public const int GetAllForTenantRole = 68;
+        public const int GetUsersNotAssignedCompanyRole = 69;
+        public const int GetUsersNotAssignedTenantRole = 70;
+        public const int GetByUserIdForCompanyRole = 71;
+        public const int GetByUserIdForTenantRole = 72;
+        public const int GetAllByActiveCompanyId = 73;
+        public const int UpdateByUserId = 74;
+        public const int UpdateActiveCompany = 75;
+
+        public const int UpdatePassword = 76;
+    }
+}

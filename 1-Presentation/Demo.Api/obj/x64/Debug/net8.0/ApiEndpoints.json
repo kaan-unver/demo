@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "Demo.Api.Controllers.AddressController",
+    "Method": "GetCities",
+    "RelativePath": "api/Address/cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Api.Controllers.AddressController",
+    "Method": "GetCounties",
+    "RelativePath": "api/Address/getCounties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Api.Controllers.AddressController",
+    "Method": "GetCountiesByCity",
+    "RelativePath": "api/Address/getCountiesByCity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Api.Controllers.AddressController",
+    "Method": "GetHometowns",
+    "RelativePath": "api/Address/getHometowns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Api.Controllers.AddressController",
+    "Method": "GetHometownsByCounty",
+    "RelativePath": "api/Address/getHometownsByCounty",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Demo.DTO.Auth.LoginUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Api.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Demo.Api.Controllers.UserController",
+    "Method": "Add",
+    "RelativePath": "api/User/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Demo.DTO.User.InsertTUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Connected Services\**" />
+    <EmbeddedResource Remove="Connected Services\**" />
+    <None Remove="Connected Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Federation" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="6.0.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3-Infrastructure\Demo.Infrastructure\Demo.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\4-Entities\Demo.DTO\Demo.DTO.csproj" />
+    <ProjectReference Include="..\..\6-Caching\Demo.Caching\Demo.Caching.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Concrete\User\" />
+  </ItemGroup>
+
+</Project>

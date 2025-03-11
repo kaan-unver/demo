@@ -1,0 +1,25 @@
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\bin\Debug\net8.0\Xeneff.Core.deps.json
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\bin\Debug\net8.0\Xeneff.Core.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\bin\Debug\net8.0\Xeneff.Core.pdb
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.csproj.AssemblyReference.cache
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.AssemblyInfoInputs.cache
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.AssemblyInfo.cs
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.csproj.CoreCompileInputs.cache
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.sourcelink.json
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\refint\Xeneff.Core.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.pdb
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\5-Core\Xeneff.Core\obj\Debug\net8.0\ref\Xeneff.Core.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\bin\Debug\net8.0\Xeneff.Core.deps.json
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\bin\Debug\net8.0\Xeneff.Core.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\bin\Debug\net8.0\Xeneff.Core.pdb
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.csproj.AssemblyReference.cache
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.AssemblyInfoInputs.cache
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.AssemblyInfo.cs
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.csproj.CoreCompileInputs.cache
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\refint\Xeneff.Core.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\Xeneff.Core.pdb
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Xeneff.Core\obj\Debug\net8.0\ref\Xeneff.Core.dll

@@ -1,0 +1,3091 @@
+[
+  {
+    "ContainingType": "Xeneff.Api.Controllers.AddressController",
+    "Method": "GetCities",
+    "RelativePath": "api/Address/cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.AddressController",
+    "Method": "GetCounties",
+    "RelativePath": "api/Address/getCounties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.AddressController",
+    "Method": "GetCountiesByCity",
+    "RelativePath": "api/Address/getCountiesByCity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.AddressController",
+    "Method": "GetHometowns",
+    "RelativePath": "api/Address/getHometowns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.AddressController",
+    "Method": "GetHometownsByCounty",
+    "RelativePath": "api/Address/getHometownsByCounty",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Auth.LoginUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.BarcodeDispatchController",
+    "Method": "Add",
+    "RelativePath": "api/BarcodeDispatch/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.BarcodeDispatch.BarcodeDispacthInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.BarcodeDispatchController",
+    "Method": "GetDefaultsForBarcodeDispatch",
+    "RelativePath": "api/BarcodeDispatch/getDefaultsWithBarcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.BarcodeDispatchController",
+    "Method": "GetDispatchReasons",
+    "RelativePath": "api/BarcodeDispatch/getDispatchReasons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.BarcodeDispatchController",
+    "Method": "GetInfoForTrackingWithBarcode",
+    "RelativePath": "api/BarcodeDispatch/getInfoForTrackingWithBarcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OperationNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Barcode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.BarcodeDispatchController",
+    "Method": "GetTimelineWithBarcode",
+    "RelativePath": "api/BarcodeDispatch/getTimelineWithBarcode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CategoryController",
+    "Method": "Add",
+    "RelativePath": "api/Category/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Category.CategoryInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/Category/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Category/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/Category/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CategoryController",
+    "Method": "Update",
+    "RelativePath": "api/Category/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Category.CategoryUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "Add",
+    "RelativePath": "api/Company/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Company.InsertCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "Delete",
+    "RelativePath": "api/Company/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "GetActiveCompanyListByUserId",
+    "RelativePath": "api/Company/getActiveCompanyListByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "GetAll",
+    "RelativePath": "api/Company/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "GetAllCompanyByTenant",
+    "RelativePath": "api/Company/getAllCompanyByTenant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "GetAllShortInfo",
+    "RelativePath": "api/Company/getAllShortInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "GetById",
+    "RelativePath": "api/Company/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyController",
+    "Method": "Update",
+    "RelativePath": "api/Company/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Company.UpdateCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyTUserController",
+    "Method": "Add",
+    "RelativePath": "api/CompanyTUser/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Company_TUser.InsertCompanyTUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyTUserController",
+    "Method": "Delete",
+    "RelativePath": "api/CompanyTUser/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyTUserController",
+    "Method": "GetAll",
+    "RelativePath": "api/CompanyTUser/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyTUserController",
+    "Method": "GetByUserId",
+    "RelativePath": "api/CompanyTUser/getByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyTUserController",
+    "Method": "GetDetailByUserId",
+    "RelativePath": "api/CompanyTUser/getDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyTUserController",
+    "Method": "GetUsersNotAssignedCompany",
+    "RelativePath": "api/CompanyTUser/getUsersNotAssignedCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CompanyTUserController",
+    "Method": "Update",
+    "RelativePath": "api/CompanyTUser/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Company_TUser.UpdateCompanyTUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "Add",
+    "RelativePath": "api/Customer/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Customer.CustomerInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "Delete",
+    "RelativePath": "api/Customer/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customer/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "GetById",
+    "RelativePath": "api/Customer/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "GetShortInfo",
+    "RelativePath": "api/Customer/getCustomerShortInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "GetDetail",
+    "RelativePath": "api/Customer/getDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "GetIdentityCardImagesById",
+    "RelativePath": "api/Customer/getIdentityCardImagesById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "GetJobs",
+    "RelativePath": "api/Customer/getJobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "GetNationalities",
+    "RelativePath": "api/Customer/getNationalities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "Search",
+    "RelativePath": "api/Customer/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Customer.CustomerSearchDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "SendOtpCode",
+    "RelativePath": "api/Customer/sendOtpCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Customer.OtpCodeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "SendPermitRequestForm",
+    "RelativePath": "api/Customer/sendPermitRequestForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.SMS.PermitRequestFormSmsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "SetPermittedCustomer",
+    "RelativePath": "api/Customer/setPermittedCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Customer.PermitCustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "Update",
+    "RelativePath": "api/Customer/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Customer.CustomerUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "UploadIdentityCard",
+    "RelativePath": "api/Customer/uploadIdentityCard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CustomerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "FrontId",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "BackId",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.CustomerController",
+    "Method": "UploadPersonForm",
+    "RelativePath": "api/Customer/uploadPersonForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PersonForm",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DeliverController",
+    "Method": "DeliverProduct",
+    "RelativePath": "api/Deliver/deliverProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Deliver.DeliverDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DeliverController",
+    "Method": "DeliverProductSafe",
+    "RelativePath": "api/Deliver/deliverProductSafe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Deliver.DeliverSafeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DeliverController",
+    "Method": "GetReadyForDelivery",
+    "RelativePath": "api/Deliver/getReadyForDelivery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DeliverController",
+    "Method": "GetReadyForDeliveryCount",
+    "RelativePath": "api/Deliver/getReadyForDeliveryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DeliverController",
+    "Method": "SendDeliverableSmsAgain",
+    "RelativePath": "api/Deliver/sendDeliverableSmsAgain",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.SMS.DeliverableSmsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "Add",
+    "RelativePath": "api/Dispatch/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Dispatch.DispatchInsertDto, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "Delete",
+    "RelativePath": "api/Dispatch/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetAll",
+    "RelativePath": "api/Dispatch/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetBelongingToMyCompanyCount",
+    "RelativePath": "api/Dispatch/getBelongingToMyCompanyCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetById",
+    "RelativePath": "api/Dispatch/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetCompanyDispatchLocations",
+    "RelativePath": "api/Dispatch/getCompanyDispatchLocations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetDataForDispatch",
+    "RelativePath": "api/Dispatch/getDataForDispatch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetDeliveredProducts",
+    "RelativePath": "api/Dispatch/getDeliveredProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetProductTracking",
+    "RelativePath": "api/Dispatch/getInfoForTracking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Dispatch.TrackingRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetLatedProductCount",
+    "RelativePath": "api/Dispatch/getLatedProductCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetLatedProducts",
+    "RelativePath": "api/Dispatch/getLatedProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetMyAcceptedProducts",
+    "RelativePath": "api/Dispatch/getMyAcceptedProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetMyAcceptedProductsCount",
+    "RelativePath": "api/Dispatch/getMyAcceptedProductsCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetNotDeliveredProducts",
+    "RelativePath": "api/Dispatch/getNotDeliveredProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetProductAtTheProducer",
+    "RelativePath": "api/Dispatch/getProductAtTheProducer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetProductAtTheProducerCount",
+    "RelativePath": "api/Dispatch/getProductAtTheProducerCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetProductAtTheTransfer",
+    "RelativePath": "api/Dispatch/getProductAtTheTransfer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetBelongingToMyCompany",
+    "RelativePath": "api/Dispatch/getProductBelongingToMyCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetShippedFromMyCompany",
+    "RelativePath": "api/Dispatch/getShippedFromMyCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetShippedFromMyCompanyCount",
+    "RelativePath": "api/Dispatch/getShippedFromMyCompanyCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetShippedToMyCompany",
+    "RelativePath": "api/Dispatch/getShippedToMyCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetShippedToMyCompanyCount",
+    "RelativePath": "api/Dispatch/getShippedToMyCompanyCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "GetTimelineOfProduct",
+    "RelativePath": "api/Dispatch/getTimelineOfProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.DispatchController",
+    "Method": "Update",
+    "RelativePath": "api/Dispatch/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Dispatch.DispatchUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ExpressConsentController",
+    "Method": "Add",
+    "RelativePath": "api/ExpressConsent/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ExpConsentText",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExpiryDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExpConsentTextFileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ExpressConsentController",
+    "Method": "Delete",
+    "RelativePath": "api/ExpressConsent/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ExpressConsentController",
+    "Method": "GetAll",
+    "RelativePath": "api/ExpressConsent/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ExpressConsentController",
+    "Method": "GetById",
+    "RelativePath": "api/ExpressConsent/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ExpressConsentController",
+    "Method": "GetNewerText",
+    "RelativePath": "api/ExpressConsent/getNewerText",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.KvkkTextController",
+    "Method": "Add",
+    "RelativePath": "api/KvkkText/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "KvkkText",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExpiryDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "KvkkTextFileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.KvkkTextController",
+    "Method": "Delete",
+    "RelativePath": "api/KvkkText/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.KvkkTextController",
+    "Method": "GetAll",
+    "RelativePath": "api/KvkkText/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.KvkkTextController",
+    "Method": "GetById",
+    "RelativePath": "api/KvkkText/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.KvkkTextController",
+    "Method": "GetNewerText",
+    "RelativePath": "api/KvkkText/getNewerText",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceController",
+    "Method": "Add",
+    "RelativePath": "api/Licence/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Licence.InsertLicenceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceController",
+    "Method": "Delete",
+    "RelativePath": "api/Licence/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Licence/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceController",
+    "Method": "GetById",
+    "RelativePath": "api/Licence/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceController",
+    "Method": "Update",
+    "RelativePath": "api/Licence/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Licence.UpdateLicenceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceModuleController",
+    "Method": "Add",
+    "RelativePath": "api/LicenceModule/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.LicenceModule.InsertLicenceModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceModuleController",
+    "Method": "Delete",
+    "RelativePath": "api/LicenceModule/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceModuleController",
+    "Method": "GetAll",
+    "RelativePath": "api/LicenceModule/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceModuleController",
+    "Method": "Update",
+    "RelativePath": "api/LicenceModule/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.LicenceModule.UpdateLicenceModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceTenantController",
+    "Method": "Add",
+    "RelativePath": "api/LicenceTenant/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.LicenceTenant.InsertLicenceTenantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceTenantController",
+    "Method": "Delete",
+    "RelativePath": "api/LicenceTenant/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceTenantController",
+    "Method": "GetAll",
+    "RelativePath": "api/LicenceTenant/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.LicenceTenantController",
+    "Method": "Update",
+    "RelativePath": "api/LicenceTenant/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.LicenceTenant.UpdateLicenceTenantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.MessagesController",
+    "Method": "GetActions",
+    "RelativePath": "api/Messages/getActions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.MessagesController",
+    "Method": "GetModuleNames",
+    "RelativePath": "api/Messages/getModuleNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.MessagesController",
+    "Method": "GetScreenNames",
+    "RelativePath": "api/Messages/getScreenNames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ModuleController",
+    "Method": "Add",
+    "RelativePath": "api/Module/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Module.InsertModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ModuleController",
+    "Method": "Delete",
+    "RelativePath": "api/Module/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ModuleController",
+    "Method": "GetAll",
+    "RelativePath": "api/Module/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ModuleController",
+    "Method": "GetBasicInformationOfModules",
+    "RelativePath": "api/Module/getBasicInfoOfModules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ModuleController",
+    "Method": "GetById",
+    "RelativePath": "api/Module/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ModuleController",
+    "Method": "GetMainModules",
+    "RelativePath": "api/Module/getMainModules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ModuleController",
+    "Method": "Update",
+    "RelativePath": "api/Module/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Module.UpdateModuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OperationBaseController",
+    "Method": "GetBangleSize",
+    "RelativePath": "api/OperationBase/getBangleSize",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OperationBaseController",
+    "Method": "GetColors",
+    "RelativePath": "api/OperationBase/getColors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OperationBaseController",
+    "Method": "GetCurrencies",
+    "RelativePath": "api/OperationBase/getCurrencies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OperationBaseController",
+    "Method": "GetMetalGrades",
+    "RelativePath": "api/OperationBase/getMetalGrades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "Add",
+    "RelativePath": "api/Order/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Image",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductGroupId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GradeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ColorId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProducerId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gram",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrePayment",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPaid",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReceivedPayment",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalPayment",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductGroupCode",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CustomerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "RemainingAmount",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductStatusCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CurrencyCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RefCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BelongsToCustomer",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "Delete",
+    "RelativePath": "api/Order/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteIntEntryDto, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "DeleteOrderImage",
+    "RelativePath": "api/Order/deleteOrderImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Order.OrderImageDeleteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "GetAll",
+    "RelativePath": "api/Order/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "GetById",
+    "RelativePath": "api/Order/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "GetDetail",
+    "RelativePath": "api/Order/getDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "GetOpenedOrderCount",
+    "RelativePath": "api/Order/getOpenedOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "GetOpenedOrders",
+    "RelativePath": "api/Order/getOpenedOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "GetOrderImagesById",
+    "RelativePath": "api/Order/getOrderImagesById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "Update",
+    "RelativePath": "api/Order/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Order.OrderUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.OrderController",
+    "Method": "UploadOrderImage",
+    "RelativePath": "api/Order/uploadOrderImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProducerController",
+    "Method": "Add",
+    "RelativePath": "api/Producer/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Producer.ProducerInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProducerController",
+    "Method": "Delete",
+    "RelativePath": "api/Producer/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProducerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Producer/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProducerController",
+    "Method": "GetBasicInfo",
+    "RelativePath": "api/Producer/getBasicInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProducerController",
+    "Method": "GetById",
+    "RelativePath": "api/Producer/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProducerController",
+    "Method": "Update",
+    "RelativePath": "api/Producer/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Producer.ProducerUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductController",
+    "Method": "Add",
+    "RelativePath": "api/Product/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Product.ProductInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Product/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/Product/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductController",
+    "Method": "GetProductByProductGroupId",
+    "RelativePath": "api/Product/getProductByProductGroupId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/Product/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Product.ProductUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductGroupController",
+    "Method": "Add",
+    "RelativePath": "api/ProductGroup/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.ProductGroup.ProductGroupInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductGroupController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductGroup/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductGroupController",
+    "Method": "GetAll",
+    "RelativePath": "api/ProductGroup/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductGroupController",
+    "Method": "GetById",
+    "RelativePath": "api/ProductGroup/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductGroupController",
+    "Method": "GetProductGroupByCategoryId",
+    "RelativePath": "api/ProductGroup/getProductGroupByCategoryId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductGroupController",
+    "Method": "Update",
+    "RelativePath": "api/ProductGroup/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.ProductGroup.ProductGroupUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductStatusController",
+    "Method": "Add",
+    "RelativePath": "api/ProductStatus/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.ProductStatus.ProductStatusInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductStatusController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductStatus/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteStringEntryDto, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductStatusController",
+    "Method": "GetAll",
+    "RelativePath": "api/ProductStatus/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductStatusController",
+    "Method": "GetById",
+    "RelativePath": "api/ProductStatus/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProductStatusController",
+    "Method": "Update",
+    "RelativePath": "api/ProductStatus/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.ProductStatus.ProductStatusUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProfileController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Profile/getUserProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ProfileController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/Profile/updatePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profilePasswordDto",
+        "Type": "Xeneff.DTO.Profile.ProfilePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "Add",
+    "RelativePath": "api/Repair/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Repair.RepairInsertDto, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "Delete",
+    "RelativePath": "api/Repair/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteIntEntryDto, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "DeleteRepairImage",
+    "RelativePath": "api/Repair/deleteRepairImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Repair.RepairImageDeleteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "GetAll",
+    "RelativePath": "api/Repair/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "GetById",
+    "RelativePath": "api/Repair/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "GetDetail",
+    "RelativePath": "api/Repair/getDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "GetOpenedRepairCount",
+    "RelativePath": "api/Repair/getOpenedRepairCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "GetOpenedRepairs",
+    "RelativePath": "api/Repair/getOpenedRepairs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "GetRepairImagesById",
+    "RelativePath": "api/Repair/getRepairImagesById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "Update",
+    "RelativePath": "api/Repair/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Repair.RepairUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RepairController",
+    "Method": "UploadRepairImage",
+    "RelativePath": "api/Repair/uploadRepairImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ReportController",
+    "Method": "Report",
+    "RelativePath": "api/Report/getReport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Report.ReportRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "Add",
+    "RelativePath": "api/Role/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Role.InsertRoleWithRoleActionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/Role/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "DoesRoleHaveAnyRelationWithOtherTables",
+    "RelativePath": "api/Role/doesRoleHaveAnyRelationWithOtherTables",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetCountOfUserHavingThisRole",
+    "RelativePath": "api/Role/getCountOfUserHavingThisRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRoleDetailById",
+    "RelativePath": "api/Role/getDetailById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Role/getRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRolesByActiveCompany",
+    "RelativePath": "api/Role/getRolesByActiveCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRolesByCompanyUser",
+    "RelativePath": "api/Role/getRolesByCompanyUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRolesBySystemUser",
+    "RelativePath": "api/Role/getRolesBySystemUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRolesByTenantUser",
+    "RelativePath": "api/Role/getRolesByTenantUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRolesOfTheCompaniesAssignedAccordingToUserId",
+    "RelativePath": "api/Role/getRolesOfTheCompaniesAssignedAccordingToUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetRolesWithScreenAndActionsById",
+    "RelativePath": "api/Role/getRolesWithScreenAndActionsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "GetTenantRoles",
+    "RelativePath": "api/Role/getTenantRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.RoleController",
+    "Method": "UpdateRoleWithActions",
+    "RelativePath": "api/Role/updateRoleWithActions",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Role.UpdateRoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenController",
+    "Method": "Add",
+    "RelativePath": "api/Screen/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Screen.InsertScreenWithActionsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenController",
+    "Method": "Delete",
+    "RelativePath": "api/Screen/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Abstract.DeleteEntry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenController",
+    "Method": "GetAll",
+    "RelativePath": "api/Screen/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenController",
+    "Method": "GetAuthorizedScreensWithModulesByUser",
+    "RelativePath": "api/Screen/getAuthorizedScreens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenController",
+    "Method": "GetById",
+    "RelativePath": "api/Screen/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenController",
+    "Method": "GetScreensByModule",
+    "RelativePath": "api/Screen/getScreensByModule",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenController",
+    "Method": "Update",
+    "RelativePath": "api/Screen/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Screen.UpdateScreenDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "Add",
+    "RelativePath": "api/ScreenAction/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Screen.Actions.InsertActionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "Delete",
+    "RelativePath": "api/ScreenAction/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Abstract.DeleteEntry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "GetByIdWithRelatedList",
+    "RelativePath": "api/ScreenAction/getActionWithRelatedListById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "GetScreenActionsByGroupingThemByScreen",
+    "RelativePath": "api/ScreenAction/getByGrouping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "GetById",
+    "RelativePath": "api/ScreenAction/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "GetByScreen",
+    "RelativePath": "api/ScreenAction/getByScreen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "GetRelatedList",
+    "RelativePath": "api/ScreenAction/getRelatedListInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenActionController",
+    "Method": "Update",
+    "RelativePath": "api/ScreenAction/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Screen.Actions.UpdateActionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenEndpointController",
+    "Method": "Add",
+    "RelativePath": "api/ScreenEndpoint/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Screen.Endpoint.InsertEndpointDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenEndpointController",
+    "Method": "Delete",
+    "RelativePath": "api/ScreenEndpoint/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Abstract.DeleteEntry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenEndpointController",
+    "Method": "GetAll",
+    "RelativePath": "api/ScreenEndpoint/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenEndpointController",
+    "Method": "GetByActionId",
+    "RelativePath": "api/ScreenEndpoint/getByActionId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenEndpointController",
+    "Method": "GetById",
+    "RelativePath": "api/ScreenEndpoint/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenEndpointController",
+    "Method": "GetByScreenId",
+    "RelativePath": "api/ScreenEndpoint/getByScreenId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.ScreenEndpointController",
+    "Method": "Update",
+    "RelativePath": "api/ScreenEndpoint/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Screen.Endpoint.UpdateScreenEndpointDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantController",
+    "Method": "Add",
+    "RelativePath": "api/Tenant/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Tenant.InsertTenantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantController",
+    "Method": "Delete",
+    "RelativePath": "api/Tenant/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tenant/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantController",
+    "Method": "GetById",
+    "RelativePath": "api/Tenant/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantController",
+    "Method": "Update",
+    "RelativePath": "api/Tenant/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Tenant.UpdateTenantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantUserController",
+    "Method": "Add",
+    "RelativePath": "api/TenantUser/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.InsertTUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantUserController",
+    "Method": "Delete",
+    "RelativePath": "api/TenantUser/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantUserController",
+    "Method": "GetByTenantId",
+    "RelativePath": "api/TenantUser/getByTenantId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TenantUserController",
+    "Method": "Update",
+    "RelativePath": "api/TenantUser/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.UpdateTUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "AddCompanyRole",
+    "RelativePath": "api/TUserRole/addCompanyRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.TUser_Role.InsertTUserRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "AddTenantRole",
+    "RelativePath": "api/TUserRole/addTenantRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.TUser_Role.InsertTUserRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "DeleteCompanyRole",
+    "RelativePath": "api/TUserRole/deleteCompanyRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "DeleteTenantRole",
+    "RelativePath": "api/TUserRole/deleteTenantRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetByUserIdForCompanyRole",
+    "RelativePath": "api/TUserRole/getByUserIdForCompanyRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetByUserIdForTenantRole",
+    "RelativePath": "api/TUserRole/getByUserIdForTenantRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetCompanyRolesByUserId",
+    "RelativePath": "api/TUserRole/getCompanyRolesByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetCompanyUserForCompanyRole",
+    "RelativePath": "api/TUserRole/getCompanyUserForCompanyRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetCompanyUserForTenantRole",
+    "RelativePath": "api/TUserRole/getCompanyUserForTenantRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetCompanyUsersNotAssignedCompanyRole",
+    "RelativePath": "api/TUserRole/GetCompanyUsersNotAssignedCompanyRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetCompanyUsersNotAssignedTenantRole",
+    "RelativePath": "api/TUserRole/GetCompanyUsersNotAssignedTenantRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetTenantRolesByUserId",
+    "RelativePath": "api/TUserRole/getTenantRolesByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetTenantUserForTenantRole",
+    "RelativePath": "api/TUserRole/getTenantUserForTenantRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "GetTenantUsersNotAssignedTenantRole",
+    "RelativePath": "api/TUserRole/GetTenantUsersNotAssignedTenantRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "UpdateCompanyRole",
+    "RelativePath": "api/TUserRole/updateCompanyRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.TUser_Role.UpdateTUserRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.TUserRoleController",
+    "Method": "UpdateTenantRole",
+    "RelativePath": "api/TUserRole/updateTenantRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.TUser_Role.UpdateTUserRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserController",
+    "Method": "Add",
+    "RelativePath": "api/User/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.InsertTUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Xeneff.DTO.Abstract.DeleteEntry, Xeneff.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/User/getAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserController",
+    "Method": "GetAllByActiveCompanyId",
+    "RelativePath": "api/User/getAllByActiveCompanyId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserController",
+    "Method": "GetById",
+    "RelativePath": "api/User/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserController",
+    "Method": "Update",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.User.UpdateTUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserSettingsController",
+    "Method": "Add",
+    "RelativePath": "api/UserSettings/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Settings.InsertUserSettingsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserSettingsController",
+    "Method": "GetById",
+    "RelativePath": "api/UserSettings/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserSettingsController",
+    "Method": "Update",
+    "RelativePath": "api/UserSettings/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Settings.UserSettingsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserSettingsController",
+    "Method": "UpdateActiveCompany",
+    "RelativePath": "api/UserSettings/updateActiveCompany",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Settings.ActiveCompanyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Xeneff.Api.Controllers.UserSettingsController",
+    "Method": "UpdateByUserId",
+    "RelativePath": "api/UserSettings/updateByUserId",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Xeneff.DTO.Settings.UpdateUserSettingsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

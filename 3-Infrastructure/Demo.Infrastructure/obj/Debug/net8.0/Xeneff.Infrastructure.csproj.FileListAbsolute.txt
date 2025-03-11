@@ -1,0 +1,43 @@
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.deps.json
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.runtimeconfig.json
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.pdb
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Core.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.DTO.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Entities.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.DTO.pdb
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Entities.pdb
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Core.pdb
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.AssemblyInfo.cs
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.sourcelink.json
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.I.A9157614.Up2Date
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\refint\Xeneff.Infrastructure.dll
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.pdb
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.genruntimeconfig.cache
+C:\Users\Bilgekaan Ünver\Desktop\Workspace\Xeneff.Marifet\Xeneff.Marifet\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\ref\Xeneff.Infrastructure.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.deps.json
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.runtimeconfig.json
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Infrastructure.pdb
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Core.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.DTO.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Entities.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.DTO.pdb
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Entities.pdb
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\bin\Debug\net8.0\Xeneff.Core.pdb
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.AssemblyInfo.cs
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.I.A9157614.Up2Date
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\refint\Xeneff.Infrastructure.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.pdb
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\Xeneff.Infrastructure.genruntimeconfig.cache
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Xeneff.Infrastructure\obj\Debug\net8.0\ref\Xeneff.Infrastructure.dll
