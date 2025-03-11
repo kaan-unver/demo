@@ -40,3 +40,4 @@ C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\6-Caching\Demo.Caching\bin\Debug\ne
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\6-Caching\Demo.Caching\bin\Debug\net8.0\Demo.DTO.pdb
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\6-Caching\Demo.Caching\obj\Debug\net8.0\Demo.Cac.E3371E27.Up2Date
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\6-Caching\Demo.Caching\obj\Debug\net8.0\ref\Demo.Caching.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\6-Caching\Demo.Caching\obj\Debug\net8.0\Demo.Caching.sourcelink.json

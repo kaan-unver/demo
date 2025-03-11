@@ -4,31 +4,6 @@ namespace Demo.Core.Constants
 {
     public class MessageCodes
     {
-
-
-
-
-        //public const string PasswordResetReqNotCompleted = "auth.password.reset.not.completed";
-        //public const string SystemUserNotFound = "system.user.not.found";
-        //public const string DefaultTenantNotFound = "tenant.default.not.found";
-        //public const string InvalidResetPasswordRequest = "invalid.reset.password.request";
-        //public const string NotDataForUserId = "no.data.for.user";
-        //public const string ListCompaniesByTenantUserUnAuthorizedError = "list.companies.by.tenant.user.unauthorized.error";
-        //public const string RoleAlreadyHasCompany = "role.already.has.company";
-        //public const string LastCompanyInfoAssignedToRoleCannotDelete = "last.company.info.assigned.to.role.not.deleted";
-        //public const string InvalidResetPasswordCode = "invalid.reset.password.code";
-        // public const string PasswordResetActiveForUser = "auth.password.reset.active";
-
-
-
-        public const string InsertRoleUnAuthorizedUserTenantError = "insert.role.companies.user.unauthorized.error";
-        public const string InsertRoleUnAuthorizedCompanyTenantError = "insert.role.companies.tenant.unauthorized.error";
-        public const string ListTenantRoleButUserCompanyUserUnAuthorizedError = "list.tenant.role.user.company.user.unauthorized.user";
-
-
-
-        //TODO msozeri: insert followings to the message table? by running query on db.
-        // Added
         public const string UnAuthorizedPermissionEndpoint = "endpoint.permission.unauthorized";
         // Not Added Yet
         public const string TokenIsRequired = "token.is.required";
@@ -94,7 +69,6 @@ namespace Demo.Core.Constants
         public const string UserIdIsRequired = "user.id.is.required";
         public const string LastNameIsRequired = "lastname.is.required";
         public const string PhoneNumberIsRequired = "phone.number.is.required";
-        public const string CompanyIdIsRequired = "company.id.is.required";
         public const string InternalServerError = "internal.server.error";
         public const string UnsupportedMediaTypeError = "unsupported.media.type.error";
         public const string MethodNotAllowedError = "method.not.allowed.error";
@@ -164,6 +138,7 @@ namespace Demo.Core.Constants
         public const string ListCompanyRoleUnAuthorizedError = "list.company.role.unauthorized";
         public const string NotFoundRepairRegister = "not.found.repair.register";
         public const string CustomerIsAlreadyExist = "customer.is.already.exist";
+        public const string EmailExist = "user.with.same.email.exist";
         public const string AtLeastOneImageRequired = "at.least.one.image.required";
         public const string DefaultRecordAlreadyExist = "default.record.already.exist";
         public const string DeliveryCodeIsRequired = "delivery.code.is.required";

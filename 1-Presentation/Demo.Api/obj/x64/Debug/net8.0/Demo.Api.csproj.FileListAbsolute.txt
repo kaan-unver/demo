@@ -467,3 +467,8 @@ C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\obj\x64\Deb
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\obj\x64\Debug\net8.0\Demo.Api.csproj.Up2Date
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\obj\x64\Debug\net8.0\Demo.Api.genruntimeconfig.cache
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\obj\x64\Debug\net8.0\ref\Demo.Api.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\obj\x64\Debug\net8.0\Demo.Api.sourcelink.json
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\bin\x64\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\bin\x64\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\bin\x64\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\1-Presentation\Demo.Api\bin\x64\Debug\net8.0\RazorLight.dll

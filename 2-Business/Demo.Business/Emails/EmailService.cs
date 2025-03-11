@@ -19,18 +19,12 @@ namespace Demo.Business.Emails
             _logger = logger;
         }
 
-        public async Task<bool> SendQuoteEmailAfterAddQuote(QuoteEmailContentDto dto)
+        public async Task<bool> SendSignUpSuccessEmail(EmailContentDto dto)
         {
 
             var emailBody = await _templateRenderer.RenderTemplateAsync(dto.TemplatePath, dto);
             return await SendMailOperation(dto, emailBody);
         }
-        public async Task<bool> SendEmailAfterAddVendor(ContactEmailContactDto dto)
-        {
-            var emailBody = await _templateRenderer.RenderTemplateAsync(dto.TemplatePath, dto);
-            return await SendMailOperation(dto, emailBody);
-        }
-
 
         //public async Task<bool> CheckSmtpHealthAsync()
         //{

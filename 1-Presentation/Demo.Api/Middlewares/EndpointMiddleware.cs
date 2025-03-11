@@ -24,7 +24,7 @@ namespace Demo.Api.Middlewares
 
             var endPoint = ParameterHelper.GetRequestedEndpoint(context, messageManager);
             //var IPAddress = context.Request.HttpContext.Connection.RemoteIpAddress?.MapToIPv4()?.ToString();
-            context.Items["TokenType"] = endPoint == Constants.LoginEndpoint ? Constants.TokenAnonymous : Constants.TokenJW;
+            context.Items["TokenType"] = endPoint == Constants.LoginEndpoint || endPoint == Constants.SignUp ? Constants.TokenAnonymous : Constants.TokenJW;
             await _next(context);
             return;
 

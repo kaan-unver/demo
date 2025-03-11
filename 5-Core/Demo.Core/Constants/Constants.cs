@@ -22,9 +22,11 @@ namespace Demo.Core.Constants
         public static readonly CultureInfo TR_Culture = new CultureInfo("tr-TR");
 
         public const string LoginEndpoint = "/api/Auth/login";
+        public const string SignUp = "/api/User/add";
         public const string TokenJW = "JWT";
         public const string TokenAnonymous = "ANO";
 
+        public const string SignUpSuccess = "Kayıt İşlemi";
         public class RequestLog
         {
             public class UserType

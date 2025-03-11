@@ -28,3 +28,4 @@ C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.DTO\bin\Debug\net8.
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.DTO\bin\Debug\net8.0\Demo.Core.pdb
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.DTO\obj\Debug\net8.0\Demo.DTO.csproj.Up2Date
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.DTO\obj\Debug\net8.0\ref\Demo.DTO.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.DTO\obj\Debug\net8.0\Demo.DTO.sourcelink.json

@@ -32,3 +32,4 @@ C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.Entities\bin\Debug\
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.Entities\obj\Debug\net8.0\Demo.Ent.E4371810.Up2Date
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.Entities\obj\Debug\net8.0\Demo.Entities.genruntimeconfig.cache
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.Entities\obj\Debug\net8.0\ref\Demo.Entities.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\4-Entities\Demo.Entities\obj\Debug\net8.0\Demo.Entities.sourcelink.json

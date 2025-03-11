@@ -37,8 +37,6 @@ namespace Xeneff.Business.Concrete.User
             _tokenManager = tokenManager;
 
         }
-
-        //TODO: gülsüm kod tekrarı var bu kısımları düzenlemelisin şuan işlemi ilerletmek için bu şekilde bırakıyorum
         public IDataResult<UserLoginResponseDto> GetUserByLogin(LoginUser dto)
         {
             var result = new LoginDtoValidator(_messageManager).Validate(dto);

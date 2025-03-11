@@ -6,7 +6,6 @@
         public string ContactEmail { get; set; }
         public string Subject { get; set; }
         public string TemplatePath { get; set; }
-        public string ApplicationUrl { get; set; }
 
          
     }

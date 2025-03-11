@@ -40,3 +40,4 @@ C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Demo.Infrastructur
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Demo.Infrastructure\obj\Debug\net8.0\Demo.Inf.DA525600.Up2Date
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Demo.Infrastructure\obj\Debug\net8.0\Demo.Infrastructure.genruntimeconfig.cache
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Demo.Infrastructure\obj\Debug\net8.0\ref\Demo.Infrastructure.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\3-Infrastructure\Demo.Infrastructure\obj\Debug\net8.0\Demo.Infrastructure.sourcelink.json

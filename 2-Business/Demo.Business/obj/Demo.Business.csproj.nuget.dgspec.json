@@ -72,6 +72,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "RazorLight": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.8, )"

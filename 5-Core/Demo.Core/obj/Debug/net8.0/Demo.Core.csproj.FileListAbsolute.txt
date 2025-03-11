@@ -22,3 +22,4 @@ C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Demo.Core\obj\Debug\net8.0\D
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Demo.Core\obj\Debug\net8.0\refint\Demo.Core.dll
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Demo.Core\obj\Debug\net8.0\Demo.Core.pdb
 C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Demo.Core\obj\Debug\net8.0\ref\Demo.Core.dll
+C:\Users\Kaan\Desktop\Workspace\demo\demo.BE\5-Core\Demo.Core\obj\Debug\net8.0\Demo.Core.sourcelink.json

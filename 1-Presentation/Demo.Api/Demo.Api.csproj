@@ -25,6 +25,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="NLog" Version="5.3.2" />
+    <PackageReference Include="RazorLight" Version="2.3.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="System.ServiceModel.Duplex" Version="6.0.*" />
     <PackageReference Include="System.ServiceModel.Federation" Version="6.0.*" />
@@ -246,5 +247,10 @@
     <None Include="bin\Debug\net8.0\zh-Hant\System.ServiceModel.NetTcp.resources.dll" />
     <None Include="bin\Debug\net8.0\zh-Hant\System.ServiceModel.Primitives.resources.dll" />
   </ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Emails\Templates\" />
+	  <Folder Include="_Uploads\ProfilePhotos\" />
+	</ItemGroup>
 
 </Project>
