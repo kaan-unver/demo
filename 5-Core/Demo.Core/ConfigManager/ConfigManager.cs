@@ -61,6 +61,7 @@ namespace Demo.Core.ConfigManager
         }
 
         public string ProfilePhotoFilePath => _configuration["Paths:ProfilePhotoFilePath"]!;
+        public string MeetingFilePath => _configuration["Paths:MeetingFilePath"]!;
 
         public string MobilParkUsername => _configuration["MobilParkInfo:Username"];
 

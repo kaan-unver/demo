@@ -121,35 +121,4 @@ class Program
     //    }
     //}
 
-    private static async Task SendEmailAsync(QuoteEmailContentDto dto, string emailBody)
-    {
-        var logger = _serviceProvider.GetRequiredService<ILogManager>();
-
-        try
-        {
-            var message = new MailMessage
-            {
-                From = new MailAddress(_config["Email:From"], _config["Email:FromTitle"]),
-                Subject = dto.Subject,
-                Body = emailBody,
-                IsBodyHtml = true
-            };
-            message.To.Add(new MailAddress(dto.ContactEmail));
-
-            using var smtpClient = new System.Net.Mail.SmtpClient(_config["Email:Host"], int.Parse(_config["Email:Port"]))
-            {
-                Credentials = new NetworkCredential(_config["Email:From"], _config["Email:Password"]),
-                EnableSsl = bool.Parse(_config["Email:UseSSL"])
-            };
-            await smtpClient.SendMailAsync(message);
-
-        }
-
-        catch (Exception ex)
-        {
-            logger.Warn($@"Mail gönderilemedi.     Bilgiler: ContactName: {dto.ContactName}  ContactEmail: {dto.ContactEmail}  
-                                Hata: {ex.Message}");
-
-        }
-    }
 }

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\1-presentation\\demo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|solutionrelative:1-presentation\\demo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\2-business\\demo.business\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|solutionrelative:2-business\\demo.business\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\2-business\\demo.business\\concrete\\user\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|solutionrelative:2-business\\demo.business\\concrete\\user\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\1-presentation\\demo.api\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|solutionrelative:1-presentation\\demo.api\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\1-presentation\\demo.api\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|solutionrelative:1-presentation\\demo.api\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BFFC3EB-1388-A8A1-6D8D-777787352DF4}|3-Infrastructure\\Demo.Infrastructure\\Demo.Infrastructure.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\3-infrastructure\\demo.infrastructure\\_context\\democontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BFFC3EB-1388-A8A1-6D8D-777787352DF4}|3-Infrastructure\\Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:3-infrastructure\\demo.infrastructure\\_context\\democontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\2-business\\demo.business\\concrete\\meeting\\meetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|solutionrelative:2-business\\demo.business\\concrete\\meeting\\meetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\1-presentation\\demo.api\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|solutionrelative:1-presentation\\demo.api\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{026FF0A5-2E35-F42B-C103-FD9595F7A61C}|5-Core\\Demo.Core\\Demo.Core.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\5-core\\demo.core\\logging\\nlogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BFFC3EB-1388-A8A1-6D8D-777787352DF4}|3-Infrastructure\\Demo.Infrastructure\\Demo.Infrastructure.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\3-infrastructure\\demo.infrastructure\\abstract\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BFFC3EB-1388-A8A1-6D8D-777787352DF4}|3-Infrastructure\\Demo.Infrastructure\\Demo.Infrastructure.csproj|solutionrelative:3-infrastructure\\demo.infrastructure\\abstract\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\2-business\\demo.business\\concrete\\user\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|solutionrelative:2-business\\demo.business\\concrete\\user\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\2-business\\demo.business\\mapping\\mapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,22 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\1-presentation\\demo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|solutionrelative:1-presentation\\demo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\1-presentation\\demo.api\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|solutionrelative:1-presentation\\demo.api\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\1-presentation\\demo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BAEB70C0-49D4-960B-926B-E7B67D2020D2}|1-Presentation\\Demo.Api\\Demo.Api.csproj|solutionrelative:1-presentation\\demo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\2-business\\demo.business\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61553AB3-BB32-FF59-2C9D-09C04BE7F266}|2-Business\\Demo.Business\\Demo.Business.csproj|solutionrelative:2-business\\demo.business\\emails\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{026FF0A5-2E35-F42B-C103-FD9595F7A61C}|5-Core\\Demo.Core\\Demo.Core.csproj|c:\\users\\kaan\\desktop\\workspace\\demo\\demo.be\\5-core\\demo.core\\configmanager\\iconfigmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -209,7 +209,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Controllers\\AuthController.cs",
@@ -223,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Controllers\\UserController.cs",
@@ -237,13 +237,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Concrete\\User\\UserManager.cs",
               "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Concrete\\User\\UserManager.cs",
               "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Concrete\\User\\UserManager.cs",
               "RelativeToolTip": "2-Business\\Demo.Business\\Concrete\\User\\UserManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCIAAACAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T17:55:31.248Z",
               "IsPinned": true,
@@ -251,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "MeetingManager.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Concrete\\Meeting\\MeetingManager.cs",
               "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Concrete\\Meeting\\MeetingManager.cs",
@@ -265,13 +265,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MeetingController.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Controllers\\MeetingController.cs",
               "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Controllers\\MeetingController.cs",
               "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Controllers\\MeetingController.cs",
               "RelativeToolTip": "1-Presentation\\Demo.Api\\Controllers\\MeetingController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA0wCsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wCkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T16:11:37.331Z",
               "IsPinned": true,
@@ -283,20 +283,202 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUserManager.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
-              "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
-              "RelativeToolTip": "2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:12:32.87Z",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
+              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
+              "RelativeToolTip": "1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T14:15:40.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
+              "Title": "EndpointMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
+              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
+              "RelativeToolTip": "1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIA2wBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T21:48:35.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HttpMethodValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
+              "RelativeToolTip": "1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA2wBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:33:02.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NLogManager.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\5-Core\\Demo.Core\\Logging\\NLogManager.cs",
+              "RelativeDocumentMoniker": "5-Core\\Demo.Core\\Logging\\NLogManager.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\5-Core\\Demo.Core\\Logging\\NLogManager.cs",
+              "RelativeToolTip": "5-Core\\Demo.Core\\Logging\\NLogManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA2wB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:01:36.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IMeetingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
+              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
+              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:28:00.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
+              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:28:03.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.Entities\\Models\\User.cs",
+              "RelativeDocumentMoniker": "4-Entities\\Demo.Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.Entities\\Models\\User.cs",
+              "RelativeToolTip": "4-Entities\\Demo.Entities\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:54:37.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MeetingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
+              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
+              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:00:19.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DemoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
+              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
+              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAhwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:26:52.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MeetingDto.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
+              "RelativeDocumentMoniker": "4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
+              "RelativeToolTip": "4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:20:29.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
+              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:18:41.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\appsettings.json",
+              "RelativeToolTip": "1-Presentation\\Demo.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T18:01:15.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
+              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
+              "RelativeToolTip": "1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T18:18:31.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Emails\\EmailService.cs",
+              "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Emails\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Emails\\EmailService.cs",
+              "RelativeToolTip": "2-Business\\Demo.Business\\Emails\\EmailService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAWwDkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T18:14:01.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TokenMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
+              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
+              "RelativeToolTip": "1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA2wB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:13:03.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IMeetingManager.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Abstract\\Meeting\\IMeetingManager.cs",
               "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Abstract\\Meeting\\IMeetingManager.cs",
@@ -310,162 +492,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
-              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
-              "RelativeToolTip": "1-Presentation\\Demo.Api\\bin\\x64\\Debug\\net8.0\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-12T14:15:40.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TokenMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
-              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
-              "RelativeToolTip": "1-Presentation\\Demo.Api\\Middlewares\\TokenMiddleware.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAIA2wB8AAAAQAAAAAAAAAA==",
+              "Title": "IUserManager.cs",
+              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
+              "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
+              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
+              "RelativeToolTip": "2-Business\\Demo.Business\\Abstract\\User\\IUserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T00:13:03.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EndpointMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
-              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
-              "RelativeToolTip": "1-Presentation\\Demo.Api\\Middlewares\\EndpointMiddleware.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIA2wBsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T21:48:35.67Z",
+              "WhenOpened": "2025-03-12T16:12:32.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "HttpMethodValidationMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
-              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
-              "RelativeToolTip": "1-Presentation\\Demo.Api\\Middlewares\\HttpMethodValidationMiddleware.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIA2wBoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:33:02.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NLogManager.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\5-Core\\Demo.Core\\Logging\\NLogManager.cs",
-              "RelativeDocumentMoniker": "5-Core\\Demo.Core\\Logging\\NLogManager.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\5-Core\\Demo.Core\\Logging\\NLogManager.cs",
-              "RelativeToolTip": "5-Core\\Demo.Core\\Logging\\NLogManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIA2wB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T00:01:36.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IMeetingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
-              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
-              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\Meeting\\IMeetingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:28:00.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
-              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Abstract\\User\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:28:03.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.Entities\\Models\\User.cs",
-              "RelativeDocumentMoniker": "4-Entities\\Demo.Entities\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.Entities\\Models\\User.cs",
-              "RelativeToolTip": "4-Entities\\Demo.Entities\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:54:37.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MeetingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
-              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
-              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Meeting\\MeetingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:00:19.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DemoContext.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
-              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
-              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\_Context\\DemoContext.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAhwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:26:52.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MeetingDto.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
-              "RelativeDocumentMoniker": "4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
-              "RelativeToolTip": "4-Entities\\Demo.DTO\\Meeting\\MeetingDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T16:20:29.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MessageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
-              "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
-              "RelativeToolTip": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\Messages\\MessageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:18:41.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Meeting.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.Entities\\Models\\Meeting.cs",
               "RelativeDocumentMoniker": "4-Entities\\Demo.Entities\\Models\\Meeting.cs",
@@ -478,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "InsertMeetingDto.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.DTO\\Meeting\\InsertMeetingDto.cs",
               "RelativeDocumentMoniker": "4-Entities\\Demo.DTO\\Meeting\\InsertMeetingDto.cs",
@@ -491,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "MapProfile.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Mapping\\MapProfile.cs",
               "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Mapping\\MapProfile.cs",
@@ -504,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "InsertMeetingValidation.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Validations\\InsertMeetingValidation.cs",
               "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Validations\\InsertMeetingValidation.cs",
@@ -517,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "InsertUserValidator.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Validations\\User\\InsertUserValidator.cs",
               "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Validations\\User\\InsertUserValidator.cs",
@@ -530,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\User\\UserRepository.cs",
               "RelativeDocumentMoniker": "3-Infrastructure\\Demo.Infrastructure\\Concrete\\EF\\User\\UserRepository.cs",
@@ -555,31 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
-              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
-              "RelativeToolTip": "1-Presentation\\Demo.Api\\bin\\Debug\\net8.0\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T18:18:31.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Emails\\EmailService.cs",
-              "RelativeDocumentMoniker": "2-Business\\Demo.Business\\Emails\\EmailService.cs",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\2-Business\\Demo.Business\\Emails\\EmailService.cs",
-              "RelativeToolTip": "2-Business\\Demo.Business\\Emails\\EmailService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAWwEMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T18:14:01.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "MessageCodes.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\5-Core\\Demo.Core\\Constants\\MessageCodes.cs",
               "RelativeDocumentMoniker": "5-Core\\Demo.Core\\Constants\\MessageCodes.cs",
@@ -616,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.DTO\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "4-Entities\\Demo.DTO\\User\\UserDto.cs",
@@ -629,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "InsertTUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\4-Entities\\Demo.DTO\\User\\InsertTUserDto.cs",
               "RelativeDocumentMoniker": "4-Entities\\Demo.DTO\\User\\InsertTUserDto.cs",
@@ -699,18 +714,6 @@
               "ViewState": "AgIAAAcAAAAAAAAAAIA2wBsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T17:58:07.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "1-Presentation\\Demo.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kaan\\Desktop\\Workspace\\demo\\demo.BE\\1-Presentation\\Demo.Api\\appsettings.json",
-              "RelativeToolTip": "1-Presentation\\Demo.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T18:01:15.891Z"
             },
             {
               "$type": "Document",

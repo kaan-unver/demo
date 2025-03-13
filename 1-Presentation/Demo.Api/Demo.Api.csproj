@@ -14,6 +14,10 @@
     <Content Include="bin\Debug\net8.0\appsettings.json" />
     <Content Include="bin\Debug\net8.0\Demo.Api.deps.json" />
     <Content Include="bin\Debug\net8.0\Demo.Api.runtimeconfig.json" />
+    <Content Include="bin\x64\Debug\net8.0\Emails\Templates\Meeting_Notification.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Include="bin\x64\Debug\net8.0\Emails\Templates\SignUp_Template.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>

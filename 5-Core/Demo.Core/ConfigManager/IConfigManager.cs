@@ -18,6 +18,7 @@
         public int MaxTryCountIsNotRequired { get; }
         public int SecondsDefinedToDelete { get; }
         public string ProfilePhotoFilePath { get; }
+        public string MeetingFilePath { get; }
         public string MobilParkUsername { get; }
         public string MobilParkPassword { get; }
         public int FormId { get; }
