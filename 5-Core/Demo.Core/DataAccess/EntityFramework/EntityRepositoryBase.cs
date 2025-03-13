@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using System.Linq.Expressions;
 using Demo.Core.Models;
+using Demo.Core.Utilities.Extensions;
 
 namespace Demo.Core.DataAccess.EntityFramework
 {
@@ -105,6 +106,9 @@ namespace Demo.Core.DataAccess.EntityFramework
                     var propertyValue = (bool?)property?.GetValue(entity);
                     if (propertyValue.HasValue)
                         property?.SetValue(entity, true);
+                    property = entity.GetType().GetProperty("UpdatedDate");
+                    if (propertyValue.HasValue)
+                        property?.SetValue(entity, DateTime.UtcNow.GetDateTimeNow());
 
                     context.Entry(entity).Property("IsDeleted").IsModified = true;
                     context.Entry(entity).Property("UpdatedDate").IsModified = true;

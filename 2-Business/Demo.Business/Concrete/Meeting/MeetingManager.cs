@@ -30,7 +30,7 @@ namespace Xeneff.Business.Concrete.Meeting
 
         public IDataResult<List<MeetingDto>> GetAll()
         {
-            var response = _meetingRepository.GetAll().ToList();
+            var response = _meetingRepository.GetAll(p => !p.IsDeleted).ToList();
             if (response != null && response.Any())
                 return new SuccessDataResult<List<MeetingDto>>(_mapper.Map<List<Demo.Entities.Models.Meeting>, List<MeetingDto>>(response), Constants.Ok);
 
@@ -62,7 +62,7 @@ namespace Xeneff.Business.Concrete.Meeting
             if (entity == null)
                 return new ErrorDataResult<Guid>(Constants.Ok, MessageCode, TransactionId, _messageManager.Message(MessageCodes.ProcessedDataNotFound));
 
-            var response = _meetingRepository.Delete(entity);
+            var response = _meetingRepository.DeleteEntitySoftly(entity);
             if (response)
                 return new SuccessDataResult<Guid>(id, Constants.Ok);
             return new ErrorDataResult<Guid>(Constants.InternalServer, MessageCode, TransactionId, _messageManager.Message(MessageCodes.DeleteError));

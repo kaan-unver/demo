@@ -28,4 +28,8 @@ public partial class Meeting : IEntity
     public Guid? FileId { get; set; }
     [Column(TypeName = "datetime")]
     public DateTime CreatedDate { get; set; }
+    [Column(TypeName = "datetime")]
+    public DateTime? UpdatedDate { get; set; }
+    public Guid? UpdatedBy { get; set; }
+    public bool IsDeleted { get; set; }
 }
