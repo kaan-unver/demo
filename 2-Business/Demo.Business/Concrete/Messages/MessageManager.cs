@@ -11,7 +11,7 @@ using Demo.Infrastructure.Abstract.Messages;
 
 namespace Demo.Business.Concrete.Messages
 {
-    internal class MessageManager : ContextHelper, IMessageManager
+    public class MessageManager : ContextHelper, IMessageManager
     {
         private readonly IMessageCacheService _messageCaching;
         private readonly IMessageRepository _messageRepository;

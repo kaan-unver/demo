@@ -26,5 +26,6 @@ namespace Demo.Api.Controllers
             var response = _userManager.Add(dto);
             return CreateActionResult(response);
         }
+
     }
 }

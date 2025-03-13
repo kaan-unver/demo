@@ -6,7 +6,7 @@ using Demo.Infrastructure.Context;
 
 namespace Demo.Infrastructure.Concrete.EF.Messages
 {
-    internal class MessageRepository : EfEntityRepositoryBase<Message, DemoContext>, IMessageRepository
+    public class MessageRepository : EfEntityRepositoryBase<Message, DemoContext>, IMessageRepository
     {
         public List<Message> GetMesssageByLangu(string langu)
         {

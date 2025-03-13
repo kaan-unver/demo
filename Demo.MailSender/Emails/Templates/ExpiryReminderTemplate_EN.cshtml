@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Model.Subject</title>
+</head>
+<body>
+    <div>
+        <h1>Dear @Model.ContactName,</h1>
+
+        <p>
+            The validity date of the quotations listed below is approaching:
+        </p>
+        <p>
+            <strong>Validity Date:</strong> @Model.DocDueDate<br>
+            <strong>Quote No:</strong> @Model.ReqQuoteNo
+        </p>
+
+        <p>
+            <a href="@Model.ApplicationUrl">Log in to the System</a>
+        </p>
+
+        <p>
+            Thank you for your cooperation, and we wish you success in your work.
+        </p>
+
+        <p>
+            Best regards,<br>
+        </p>
+    </div>
+</body>
+</html>

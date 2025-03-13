@@ -7,6 +7,7 @@ using Demo.DTO.Address;
 using Demo.DTO.Messages;
 using Demo.DTO.JWT;
 using Demo.DTO.User;
+using Demo.DTO.Meeting;
 
 namespace Demo.Business.Mapping
 {
@@ -33,7 +34,13 @@ namespace Demo.Business.Mapping
             CreateMap<InsertTUserDto, TUserDto>();
             #endregion
 
-            
+            #region Meeting
+            CreateMap<MeetingDto, Meeting>().ReverseMap();
+            CreateMap<InsertMeetingDto, Meeting>()
+                .ForMember(x => x.Id, map => map.MapFrom(p => Guid.NewGuid()))
+                .ForMember(x => x.CreatedDate, map => map.MapFrom(p => DateTime.UtcNow.GetDateTimeNow())); ;
+            CreateMap<Meeting, MeetingDto>();
+            #endregion
 
             #region Messages
             CreateMap<MessagesDto, Message>()

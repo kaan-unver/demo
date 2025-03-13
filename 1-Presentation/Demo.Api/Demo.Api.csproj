@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Platforms>AnyCPU;x64</Platforms>
     <PackAsTool>False</PackAsTool>
+	  <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +14,10 @@
     <Content Include="bin\Debug\net8.0\appsettings.json" />
     <Content Include="bin\Debug\net8.0\Demo.Api.deps.json" />
     <Content Include="bin\Debug\net8.0\Demo.Api.runtimeconfig.json" />
+    <Content Include="bin\x64\Debug\net8.0\Emails\Templates\SignUp_Template.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -249,7 +254,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Emails\Templates\" />
+	  <Folder Include="bin\Debug\net8.0\Emails\Templates\" />
 	  <Folder Include="_Uploads\ProfilePhotos\" />
 	</ItemGroup>
 

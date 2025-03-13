@@ -5,6 +5,7 @@ using Demo.Caching.Messages;
 using Demo.Core.ConfigManager;
 using Demo.Core.Logging;
 using Demo.Infrastructure.Context;
+using Demo.Business.Emails;
 
 namespace Demo.Api.IoC
 {
@@ -19,6 +20,9 @@ namespace Demo.Api.IoC
 
             builder.RegisterAssemblyTypes(Assembly.GetAssembly(typeof(DemoContext))!).Where(x => x.Name.EndsWith("Repository")).AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterAssemblyTypes(Assembly.GetAssembly(typeof(MapProfile))!).Where(x => x.Name.EndsWith("Manager")).AsImplementedInterfaces().InstancePerLifetimeScope();
+
+            builder.RegisterType<EmailService>().As<IEmailService>();
+            builder.RegisterType<RazorTemplateRenderer>().As<ITemplateRenderer>();
         }
     }
 }

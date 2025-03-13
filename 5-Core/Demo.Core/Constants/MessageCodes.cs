@@ -83,6 +83,7 @@ namespace Demo.Core.Constants
         public const string StartDateIsRequired = "startdate.required";
         public const string EndDateIsRequired = "enddate.required";
         public const string DescriptionIsRequired = "description.is.required";
+        public const string TitleIsRequired = "title.is.required";
         public const string CompanyTUserAlreadyExist = "company.tuser.exist";
         public const string TUserTenantRoleAlreadyExist = "tuser.tenant.role.exist";
         public const string TenantRoleNotFound = "tenant.role.not.found";
